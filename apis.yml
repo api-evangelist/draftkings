@@ -25,6 +25,10 @@ description: >-
   partner agreements rather than self-serve developer access.
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/Draftkings
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/draftkings-inc-
   - type: Website
     url: https://www.draftkings.com/
   - type: ResponsibleGaming
