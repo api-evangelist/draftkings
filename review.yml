@@ -1,0 +1,56 @@
+aid: draftkings
+name: DraftKings
+reviewed: '2026-05-29'
+reviewer: Kin Lane
+scope: Public WebSocket / streaming API availability
+finding: >-
+  No public streaming or WebSocket API documented — DraftKings does not expose a
+  public developer surface; real-time experiences are powered by undocumented
+  internal endpoints and reverse-engineered third-party clients.
+details: >-
+  DraftKings, Inc. and its product lines (DraftKings Daily Fantasy Sports,
+  DraftKings Sportsbook, DraftKings Casino, DraftKings Marketplace, DraftKings
+  Network, Golden Nugget Online Gaming, and the DraftKings B2B / SBTech
+  sportsbook technology stack acquired via the SBTech merger) do not publish a
+  developer portal, OpenAPI document, AsyncAPI specification, or self-serve
+  signup for streaming data. There is no documented public WebSocket endpoint
+  for live odds, in-play markets, contest leaderboards, lineup updates,
+  marketplace drops, or wallet events. The draftkings.com and sportsbook.draftkings.com
+  web and mobile apps are powered by internal JSON / gRPC / WebSocket endpoints
+  (commonly observed under sportsbook-nash.draftkings.com,
+  api.draftkings.com, and *.draftkings.com hosts), but these are unauthenticated
+  reverse-engineered surfaces with no published contract, rate limits, SLA, or
+  terms permitting third-party consumption — the Terms of Use at
+  https://www.draftkings.com/help/terms-of-use prohibit automated access,
+  scraping, and use of unauthorized interfaces. Public community projects
+  (e.g., jaebradley/draft-kings-client, sportsdataverse, various GitHub
+  scrapers) document these undocumented endpoints but are not sanctioned by
+  DraftKings. B2B integrations for licensed operators, data partners, and
+  affiliates run through commercial agreements with DraftKings B2B / SBTech,
+  the DraftKings Network broadcast operation, and affiliate programs — none of
+  which surface a public developer portal or streaming spec. Genius Sports
+  remains DraftKings' official odds-feed partner; consumers wanting a sanctioned
+  live odds stream are routed to Genius Sports rather than to a DraftKings API.
+sources:
+  - https://www.draftkings.com/
+  - https://sportsbook.draftkings.com/
+  - https://casino.draftkings.com/
+  - https://marketplace.draftkings.com/
+  - https://help.draftkings.com/
+  - https://help.draftkings.com/hc/en-us
+  - https://www.draftkings.com/help/terms-of-use
+  - https://www.draftkings.com/help/privacy
+  - https://careers.draftkings.com/
+  - https://investors.draftkings.com/
+  - https://github.com/Draftkings
+  - https://www.geniussports.com/
+asyncapi: null
+openapi: null
+decision: >-
+  Skip OpenAPI and AsyncAPI specification work — no public REST, WebSocket, or
+  streaming endpoint exists to model. Re-evaluate if DraftKings ever launches a
+  public developer portal, ships an AsyncAPI / OpenAPI artifact, or opens a
+  self-serve streaming feed for odds, contests, marketplace drops, or wallet
+  events. Until then, treat DraftKings as a closed B2C / B2B platform whose
+  integrations are gated by licensed-partner agreements with Genius Sports and
+  the DraftKings B2B (SBTech) organization.
