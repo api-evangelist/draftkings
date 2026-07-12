@@ -25,6 +25,8 @@ description: >-
   partner agreements rather than self-serve developer access.
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/draftkings-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/Draftkings
   - type: LinkedIn
