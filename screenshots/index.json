@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "draftkings",
+    "captured_at": "2026-10-11T185531",
+    "source_url": "https://www.draftkings.com/",
+    "source_type": "Website",
+    "file": "draftkings-2026-10-11T185531.png",
+    "bytes": 25975,
+    "capture": "playwright-local"
+  }
+]
