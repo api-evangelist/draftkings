@@ -1,0 +1,234 @@
+edges:
+- partner_name: iGaming Ontario (AGCO-registered operators)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://igamingontario.ca/en/player/regulated-igaming-market
+  category: Online gambling licence / approval
+  contract_reference:
+    register: 'iGaming Ontario (AGCO-registered operators): approved online operators (https://igamingontario.ca/en/player/regulated-igaming-market)'
+    standard: Ontario regulated iGaming (iGaming Ontario / AGCO)
+    spec_file: null
+    role: licensed-online-operator
+    jurisdiction: CA-ON
+    registered_name: DraftKings Casino
+    matched_domain: draftkings.com
+    matched_by: domain
+    certified_products:
+    - product: Ontario online gambling approval
+      jurisdiction: CA-ON
+      verticals: []
+      lapsed: false
+    approved_sites:
+    - casino.draftkings.com
+    - sportsbook.draftkings.com
+    signal_note: certified_products = ONE per jurisdiction (the approval), never per site, brand or vertical; verticals
+      and sites are context, never counted; the list is the regulator's CURRENT approved list
+    detected_by: sweep-sports-betting.py
+    detected: '2026-10-20'
+    other_registrations:
+    - DraftKings Sportsbook
+  detected_by: sweep-sports-betting.py
+  first_seen: '2026-10-20'
+- partner_name: New Jersey Division of Gaming Enforcement
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.njoag.gov/about/divisions-and-offices/division-of-gaming-enforcement-home/internet-gaming-sites/
+  category: Online gambling licence / approval
+  contract_reference:
+    register: 'New Jersey Division of Gaming Enforcement: approved online operators (https://www.njoag.gov/about/divisions-and-offices/division-of-gaming-enforcement-home/internet-gaming-sites/)'
+    standard: New Jersey internet gaming / online sports wagering (DGE)
+    spec_file: null
+    role: licensed-online-operator
+    jurisdiction: US-NJ
+    registered_name: draftkings
+    matched_domain: draftkings.com
+    matched_by: domain
+    certified_products:
+    - product: New Jersey online gambling approval
+      jurisdiction: US-NJ
+      verticals:
+      - casino
+      - sports
+      lapsed: false
+    approved_sites:
+    - casino.draftkings.com
+    - sportsbook.draftkings.com
+    signal_note: certified_products = ONE per jurisdiction (the approval), never per site, brand or vertical; verticals
+      and sites are context, never counted; the list is the regulator's CURRENT approved list
+    detected_by: sweep-sports-betting.py
+    detected: '2026-10-20'
+    licensed_through:
+    - Resorts Casino Hotel Atlantic City
+  detected_by: sweep-sports-betting.py
+  first_seen: '2026-10-20'
+- partner_name: Pennsylvania Gaming Control Board
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://gamingcontrolboard.pa.gov/pa-licensed-online-gaming-operators
+  category: Online gambling licence / approval
+  contract_reference:
+    register: 'Pennsylvania Gaming Control Board: approved online operators (https://gamingcontrolboard.pa.gov/pa-licensed-online-gaming-operators)'
+    standard: Pennsylvania online gaming (PGCB)
+    spec_file: null
+    role: licensed-online-operator
+    jurisdiction: US-PA
+    registered_name: DraftKings
+    matched_domain: draftkings.com
+    matched_by: domain
+    certified_products:
+    - product: Pennsylvania online gambling approval
+      jurisdiction: US-PA
+      verticals:
+      - casino
+      - poker
+      - sports
+      lapsed: false
+    approved_sites:
+    - casino.draftkings.com
+    - sportsbook.draftkings.com
+    signal_note: certified_products = ONE per jurisdiction (the approval), never per site, brand or vertical; verticals
+      and sites are context, never counted; the list is the regulator's CURRENT approved list
+    detected_by: sweep-sports-betting.py
+    detected: '2026-10-20'
+  detected_by: sweep-sports-betting.py
+  first_seen: '2026-10-20'
+- partner_name: Michigan Gaming Control Board
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.michigan.gov/mgcb/internet-gaming-and-fantasy-contests/authorized-online-gaming-and-sports-betting-platform-providers-in-michigan
+  category: Online gambling licence / approval
+  contract_reference:
+    register: 'Michigan Gaming Control Board: approved online operators (https://www.michigan.gov/mgcb/internet-gaming-and-fantasy-contests/authorized-online-gaming-and-sports-betting-platform-providers-in-michigan)'
+    standard: Michigan internet gaming / online sports betting (MGCB)
+    spec_file: null
+    role: licensed-online-operator
+    jurisdiction: US-MI
+    registered_name: DraftKings
+    matched_domain: draftkings.com
+    matched_by: domain
+    certified_products:
+    - product: Michigan online gambling approval
+      jurisdiction: US-MI
+      verticals:
+      - casino
+      - sports
+      lapsed: false
+    approved_sites:
+    - casino.draftkings.com
+    - sportsbook.draftkings.com
+    signal_note: certified_products = ONE per jurisdiction (the approval), never per site, brand or vertical; verticals
+      and sites are context, never counted; the list is the regulator's CURRENT approved list
+    detected_by: sweep-sports-betting.py
+    detected: '2026-10-20'
+    licensed_through:
+    - Bay Mills Indian Community
+  detected_by: sweep-sports-betting.py
+  first_seen: '2026-10-20'
+- partner_name: Colorado Division of Gaming
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://sbg.colorado.gov/licensed-sports-books-and-operators
+  category: Online gambling licence / approval
+  contract_reference:
+    register: 'Colorado Division of Gaming: approved online operators (https://sbg.colorado.gov/licensed-sports-books-and-operators)'
+    standard: Colorado online sports betting (Division of Gaming)
+    spec_file: null
+    role: licensed-online-operator
+    jurisdiction: US-CO
+    registered_name: DraftKings
+    matched_domain: draftkings.com
+    matched_by: domain
+    certified_products:
+    - product: Colorado online gambling approval
+      jurisdiction: US-CO
+      verticals:
+      - sports
+      lapsed: false
+    approved_sites: []
+    signal_note: certified_products = ONE per jurisdiction (the approval), never per site, brand or vertical; verticals
+      and sites are context, never counted; the list is the regulator's CURRENT approved list
+    detected_by: sweep-sports-betting.py
+    detected: '2026-10-20'
+    licensed_through:
+    - Bally’s Black Hawk North Casino
+    identity: wikidata Q21189310 'DraftKings' P856 https://www.draftkings.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-sports-betting.py
+  first_seen: '2026-10-20'
+- partner_name: Illinois Gaming Board
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://igb.illinois.gov/sports-wagering/sports-authorized-operating-sportsbooks.html
+  category: Online gambling licence / approval
+  contract_reference:
+    register: 'Illinois Gaming Board: approved online operators (https://igb.illinois.gov/sports-wagering/sports-authorized-operating-sportsbooks.html)'
+    standard: Illinois online sports wagering (IGB)
+    spec_file: null
+    role: licensed-online-operator
+    jurisdiction: US-IL
+    registered_name: DraftKings
+    matched_domain: draftkings.com
+    matched_by: domain
+    certified_products:
+    - product: Illinois online gambling approval
+      jurisdiction: US-IL
+      verticals:
+      - sports
+      lapsed: false
+    approved_sites: []
+    signal_note: certified_products = ONE per jurisdiction (the approval), never per site, brand or vertical; verticals
+      and sites are context, never counted; the list is the regulator's CURRENT approved list
+    detected_by: sweep-sports-betting.py
+    detected: '2026-10-20'
+    licensed_through:
+    - Casino Queen, Inc.
+    identity: wikidata Q21189310 'DraftKings' P856 https://www.draftkings.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-sports-betting.py
+  first_seen: '2026-10-20'
+generated: '2026-10-20'
+method: searched
+source:
+- https://igamingontario.ca/en/player/regulated-igaming-market
+- https://www.njoag.gov/about/divisions-and-offices/division-of-gaming-enforcement-home/internet-gaming-sites/
+- https://www.njoag.gov/about/divisions-and-offices/division-of-gaming-enforcement-home/sports-wagering/
+- https://gamingcontrolboard.pa.gov/online-sports-wagering-licensed-operators
+- https://gamingcontrolboard.pa.gov/interactive-gaming-operators
+- https://gamingcontrolboard.pa.gov/online-poker-operators
+- https://www.michigan.gov/mgcb/internet-gaming-and-fantasy-contests/authorized-online-gaming-and-sports-betting-platform-providers-in-michigan
+- https://sbg.colorado.gov/licensed-sports-books-and-operators
+- https://igb.illinois.gov/sports-wagering/sports-authorized-operating-sportsbooks.html
+checked:
+- https://gamingcontrolboard.pa.gov/interactive-gaming-operators
+- https://gamingcontrolboard.pa.gov/online-poker-operators
+- https://gamingcontrolboard.pa.gov/online-sports-wagering-licensed-operators
+- https://igamingontario.ca/en/player/regulated-igaming-market
+- https://igb.illinois.gov/sports-wagering/sports-authorized-operating-sportsbooks.html
+- https://sbg.colorado.gov/licensed-sports-books-and-operators
+- https://www.michigan.gov/mgcb/internet-gaming-and-fantasy-contests/authorized-online-gaming-and-sports-betting-platform-providers-in-michigan
+- https://www.njoag.gov/about/divisions-and-offices/division-of-gaming-enforcement-home/internet-gaming-sites/
+- https://www.njoag.gov/about/divisions-and-offices/division-of-gaming-enforcement-home/sports-wagering/
